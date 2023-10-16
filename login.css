@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: fantasy;
+    
+}
+
+.box-1 {
+    
+    height: 250px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 25px;
+    
+
+}
+
+.box-2 {
+    
+    text-align: center;
+    padding-right: 66px;
+    font-size: 35px;
+
+}
+
+.box-3 {
+    
+    height: 90px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+    
+}
+
+.box-4 {
+    
+    height: 50px;
+    text-align: center;
+    
+}
+
+#input-user {
+    
+    border-radius: 25px;
+    width: 250px;
+    height: 25px;
+    padding-top: 15px;
+    
+    
+}
+
+#input-password {
+    
+    border-radius: 25px;
+    width: 250px;
+    height: 25px;
+    padding-top: 15px;
+    margin-right: 42px;
+    
+}
+
+#button-enter {
+    width: 70px;
+    height: 40px;
+    border-radius: 25px;
+    font-family: fantasy;
+    font-size: 15px;
+    
+    
+}
+
+#button-enter:hover {
+    width: 90px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.8s;
+    color: rgb(0, 255, 128);
+    font-size: 20px;
+}
+
+.box-título-login {
+    background-color: rgb(79, 243, 153);
+    height: 25px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 68px;
+    margin-top: -20px;
+    
+    
+}
+
